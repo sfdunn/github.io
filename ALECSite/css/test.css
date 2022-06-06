@@ -1,0 +1,296 @@
+body {
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: black;
+    text-align: center;
+    font-family: "Arial";
+
+}
+h1.head {
+    color: white;
+    font-size: 50px;
+    font-family: "Arial";
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+div {
+    text-align: center;
+}
+div.test
+{
+    width: 500px;
+
+    padding: 10px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    -moz-border-radius: 15px;
+
+}
+div.validate {
+    width: 500px;
+    height: 550px;
+    padding: 10px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    -moz-border-radius: 15px;
+
+}
+div.awaiting {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    -moz-border-radius: 15px;
+    display: inline-block;
+    overflow-y: auto;
+}
+div.dep {
+    width: 150px;
+
+    margin: 0 auto;
+}
+div.subID {
+    width: 200px;
+    float: top;
+    margin: 0 auto;
+}
+div.date {
+    width: 150px;
+    float: bottom;
+    margin: 0 auto;
+}
+div.stations {
+    text-align: center;
+
+}
+div.v {
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    height: 200px;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    -moz-border-radius: 15px;
+}
+div.valverapp {
+    float: left;
+    width: 900px;
+}
+div.verapp {
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    height: 300px;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    -moz-border-radius: 15px;
+}
+div.profile {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    -moz-border-radius: 15px;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+/* CSS */
+button {
+    background-color: #fff;
+    opacity: 0.7;
+    border: 0 solid #e2e8f0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: .5em;
+    padding-bottom: 20px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    background-color: #658ac7;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    button {
+        font-size: 1.125rem;
+        padding: 1rem 2rem;
+    }
+}
+input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+select {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+button.vid {
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    margin-top: 0;
+    height: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+
+    margin-bottom: 30px;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+img.home {
+height: 50px;
+    position: absolute;
+}
+ img.home:hover {
+    opacity: 0.5;
+}
+ button.vid:hover {
+     opacity: 0.75;
+     background-color: #658ac7;
+     color: #fff;
+ }
+ th,td {
+     border: 2px;
+     background-color: rgba(255,255,255,0.7);
+     border-radius: 4px;
+     margin: 0 auto;
+     text-align: center;
+     font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+     font-size: 1.1rem;
+     font-weight: 600;
+     padding: 4px;
+ }
+ table {
+     border: 2px;
+     background-color: rgba(200,200,200,0);
+     border-radius: 4px;
+     margin: 0 auto;
+     text-align: center;
+     font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+     font-size: 1.1rem;
+     font-weight: 600;
+     padding: 4px;
+ }
+ .vendorDash {
+
+
+ }
+ form.login {
+     width: 25%;
+     margin: 0 auto;
+     padding: 10px;
+     border: 2px solid rgba(255,255,255,0.2);
+     border-radius: 15px;
+     text-align: center;
+     background-color: rgba(255,255,255,0.5);
+     -moz-border-radius: 15px;
+ }
+ header {
+
+ }
+    input.valid {
+        background-color: #fff;
+        opacity: 0.7;
+        border: 0 solid #e2e8f0;
+        border-radius: 10px;
+        box-sizing: border-box;
+        color: #0d172a;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: .5em;
+        height: 40px;
+        width: 80px;
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none #0d172a solid;
+        text-decoration-thickness: auto;
+        transition: all .1s cubic-bezier(.4, 0, .2, 1);
+        box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    input.valid:hover {
+        opacity: 0.75;
+        background-color: #658ac7;
+        color: #fff;
+    }
+    div.echo {
+
+    }
